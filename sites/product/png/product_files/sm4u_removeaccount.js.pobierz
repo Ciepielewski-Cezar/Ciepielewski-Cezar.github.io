@@ -1,0 +1,2 @@
+function sm4u_removeaccount_delete(){if(confirm(msg1)&&confirm(msg2))
+{var query=$.ajax({type:'GET',url:'index.php',data:{ajax:true,fc:'module',module:'sm4u_removeaccount',controller:'RemoveAccount',action:'Delete'},success:function(response){if(response.length>0){location.reload();}}});}}
